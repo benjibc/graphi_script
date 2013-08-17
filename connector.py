@@ -9,3 +9,4 @@ class Connector:
         self.db2=MySQLdb.connect(user=config.user, passwd=config.password,
             db=config.db)
         self.cursor2 = self.db2.cursor()
+
